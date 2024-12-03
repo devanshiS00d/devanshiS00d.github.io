@@ -5,13 +5,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Devanshi's Portfolio</title>
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="styleForMain.css" />
     <link rel="stylesheet" href="mediaqueries.css" />
   </head>
   <body>
     <nav id="desktop-nav">
       <div class="logo">
-        <img src="assets\assets\logopngforwebsite.png" alt="Devanshi Sood Logo" width="100" height="100">
+        <img src="assets\logo.png" alt="Devanshi Sood Logo" width="250" height=auto>
       </div>
       <div>
         <ul class="nav-links">
@@ -22,14 +22,14 @@
         </ul>
       </div>
     </nav>
-    <section id="profile">
+    <section id="profile" class="profile-section">
       <div class="section__pic-container">
-        <img src="assets\assets\profile pic.jpg" alt="Devanshi's profile picture" />
+        <img src="assets\pfp.png" alt="Devanshi's profile picture" />
       </div>
       <div class="section__text">
         <p class="section__text__p1">Hello, I'm</p>
         <h1 class="title">Devanshi Sood</h1>
-        <p class="section__text__p2">Computataional Media student and Frontend Developer</p>
+        <p class="section__text__p2">i’m an aspiring front-end software engineer studying computer science and interactive design at Georgia Tech. </p>
         <div class="btn-container">
           <button
             class="btn btn-color-2"
@@ -43,13 +43,13 @@
         </div>
         <div id="socials-container">
           <img
-            src="./assets/assets/linkedin.png"
+            src="assets/linkedin.png"
             alt="My LinkedIn profile"
             class="icon"
             onclick="location.href='https://linkedin.com/in/devanshi-sood/'"
           />
           <img
-            src="./assets/assets/github.png"
+            src="assets/github.png"
             alt="My Github profile"
             class="icon"
             onclick="location.href='https://github.com/'"
@@ -63,7 +63,7 @@
       <div class="section-container">
         <div class="section__pic-container">
           <img
-            src="assets\assets\aea909af8a0d5f4483d937fbae37e81c.jpg"
+            src="assets\aea909af8a0d5f4483d937fbae37e81c.jpg"
             alt="intro picture"
             class="about-pic"
           />
@@ -72,7 +72,7 @@
           <div class="about-containers">
             <div class="details-container">
               <img
-                src="./assets/assets/experience.png"
+                src="assets/experience.png"
                 alt="Experience icon"
                 class="icon"
               />
@@ -81,7 +81,7 @@
             </div>
             <div class="details-container">
               <img
-                src="./assets/assets/education.png"
+                src="assets/education.png"
                 alt="Education icon"
                 class="icon"
               />
@@ -101,7 +101,7 @@
         </div>
       </div>
       <img
-        src="./assets/assets/arrow.png"
+        src="assets/arrow.png"
         alt="Arrow icon"
         class="icon arrow"
         onclick="location.href='./#experience'"
@@ -116,7 +116,7 @@
             <div class="article-container">
               <article>
                 <img
-                  src="./assets/assets/checkmark.png"
+                  src="assets/checkmark.png"
                   alt="Experience icon"
                   class="icon"
                 />
@@ -127,7 +127,7 @@
               </article>
               <article>
                 <img
-                  src="./assets/assets/checkmark.png"
+                  src="assets/checkmark.png"
                   alt="Experience icon"
                   class="icon"
                 />
@@ -138,7 +138,7 @@
               </article>
               <article>
                 <img
-                  src="./assets/assets/checkmark.png"
+                  src="assets/checkmark.png"
                   alt="Experience icon"
                   class="icon"
                 />
@@ -149,7 +149,7 @@
               </article>
               <article>
                 <img
-                  src="./assets/assets/checkmark.png"
+                  src="assets/checkmark.png"
                   alt="Experience icon"
                   class="icon"
                 />
@@ -160,7 +160,7 @@
               </article>
               <article>
                 <img
-                  src="./assets/assets/checkmark.png"
+                  src="assets/checkmark.png"
                   alt="Experience icon"
                   class="icon"
                 />
@@ -171,7 +171,7 @@
               </article>
               <article>
                 <img
-                  src="./assets/assets/checkmark.png"
+                  src="assets/checkmark.png"
                   alt="Experience icon"
                   class="icon"
                 />
@@ -187,7 +187,7 @@
             <div class="article-container">
               <article>
                 <img
-                  src="./assets/assets/checkmark.png"
+                  src="assets/checkmark.png"
                   alt="Experience icon"
                   class="icon"
                 />
@@ -198,7 +198,7 @@
               </article>
               <article>
                 <img
-                  src="./assets/assets/checkmark.png"
+                  src="assets/checkmark.png"
                   alt="Experience icon"
                   class="icon"
                 />
@@ -209,7 +209,7 @@
               </article>
               <article>
                 <img
-                  src="./assets/assets/checkmark.png"
+                  src="assets/checkmark.png"
                   alt="Experience icon"
                   class="icon"
                 />
@@ -220,7 +220,7 @@
               </article>
               <article>
                 <img
-                  src="./assets/assets/checkmark.png"
+                  src="assets/checkmark.png"
                   alt="Experience icon"
                   class="icon"
                 />
@@ -234,34 +234,80 @@
         </div>
       </div>
     </section>
+    <section id="leadship">
+        <h1 class="title">Leadership Roles</h1>
+        <p class="section__text__p1">some of my leadership roles and on campus-involvement</p>
+        <div style="display: flex; justify-content: flex-start; align-items: flex-start; gap: 50px;">
+            <div class="about-details-container">
+                <div class="about-containers">
+                  <div class="details-container">
+                    <img
+                      src="assets/experience.png"
+                      alt="Experience icon"
+                      class="icon"
+                    />
+                    <h3>Leadership at SuperComputing Club Gatech</h3>
+                    <p>1+ years <br />Frontend Development</p>
+                  </div>
+                  <div class="details-container">
+                    <img
+                      src="assets/education.png"
+                      alt="Education icon"
+                      class="icon"
+                    />
+                    <h3>Teaching Assistant</h3>
+                    <p>Integral Calculus</p>
+                  </div>
+                  <div class="details-container">
+                    <img
+                      src="assets/education.png"
+                      alt="Education icon"
+                      class="icon"
+                    />
+                    <h3>National Board @ Hack4Impact</h3>
+                    <p> Internal relations and Marketing and Design Team member</p>
+                  </div>
+                  <div class="text-container">
+                    <p>
+                        My diverse involvement in academic and technical organizations showcases my depth of understanding in computer science and exceptional leadership qualities.. As a Teaching Assistant for Integral Calculus, I develop strong communication skills, 
+                        breaking down complex mathematical concepts for students and showcasing my ability to translate technical knowledge effectively. My leadership in Georgia Tech's Supercomputing Club allows me to explore and innovate with 
+                        cutting-edge computational technologies, pushing the boundaries of technological understanding.
+                        As Internal Relations Coordinator for HACK4Impact, I bridge technical expertise with social impact, 
+                        coordinating software solutions for non-profit organizations. This role requires strategic thinking, 
+                        interpersonal skills, and the ability to align technical capabilities with meaningful community needs. 
+                        My participation in the Bits of Good Bootcamp further reinforces my commitment to developing comprehensive 
+                        technical and design skills, underlining my holistic approach to computer science and technology.
+                    </p>
+                  </div>
+                </div>
+    </section>
+      
+
+    </section>
     <section id="projects">
-      <p class="section__text__p1">Browse My Zine :P</p>
-      <h1 class="title">my articles</h1>
+      <p class="section__text__p1">check out my work</p>
+      <h1 class="title">my projects</h1>
       <div class="experience-details-container">
         <div class="about-containers">
           <div class="details-container color-container">
             <div class="article-container">
               <div id="pictures">
-                <h2 class="experience-sub-title project-title">Project One</h2>
-                <a class="menu-item" href="https://theseptagonmagazin.wixsite.com/website/post/the-south-asian-plastic-protection-phenomenon" >
-                  <img src="assets\assets\image in portf.png" alt="picture" id="main-picture1"/>
+                <h2 class="project-title">@wrapper.</h2>
+                <h5 class="text-container">Reimagining Spotify Statistics. A gamefied, more personalized spotify wrapped that allows you to compare and contrast your music tatse with your friends.
+                    App built from ground-up using Djanjo, java, javascript, React and intergated with the Spotify API.<br><br/>
+                </h5>
+                <a class="menu-item" href="project1.html" >
+                  <img src="assets/wrapper pic.png" alt="picture" id="main-picture1"/>
                 </a>
           </div>
-            <h2 class="experience-sub-title project-title">Project Two</h2>
-            <a class="menu-item" href="https://theseptagonmagazin.wixsite.com/website/post/the-lipstick-effect-and-other-unusual-indicators-of-economic-health" >
-              <img src="assets\assets\pic 2 for website.png" alt="picture" id="main-picture2"/>
+            <h2 class="project-title">Promptly Yours</h2>
+            <h5 class="text-container">is an AI-powered app that generates personalized, scrapbook-style memory pages by prompting you and your long-distance friends to share daily responses. The app transforms these shared memories into interactive, visually engaging keepsakes that help maintain connection across distance.</h5>
+                
+            <a class="menu-item" href="project2.html" >
+              <img src="assets/promptly yours.png" alt="picture" id="main-picture2"/>
             </a>
           </div>
-            <h2 class="experience-sub-title project-title">Project Three</h2>
-            <div class="details-container color-container">
-              <div class="article-container">
-                <a class="menu-item" href="https://theseptagonmagazin.wixsite.com/website/post/find-out-who-had-the-best-magazine-covers-of-the-year" >
-                  <img src="assets\assets\Screenshot 2024-09-06 160147.png" alt="picture" id="main-picture3"/>
-                </a>
-            </div>
-          </div>
         </div>
-      </div>
     </section>
     <section id="contact">
       <p class="section__text__p1">Get in Touch</p>
@@ -269,7 +315,7 @@
       <div class="contact-info-upper-container">
         <div class="contact-info-container">
           <img
-            src="./assets/assets/email.png"
+            src="assets/email.png"
             alt="Email icon"
             class="icon contact-icon email-icon"
           />
@@ -277,7 +323,7 @@
         </div>
         <div class="contact-info-container">
           <img
-            src="./assets/assets/linkedin.png"
+            src="assets/linkedin.png"
             alt="LinkedIn icon"
             class="icon contact-icon"
           />
